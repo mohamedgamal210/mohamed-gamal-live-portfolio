@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X, Code2 } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
+import "./Navbar.css";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
