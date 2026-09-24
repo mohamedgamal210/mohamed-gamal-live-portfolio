@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, Phone, MessageCircle } from "lucide-react";
+import "./Footer.css";
 
 export default function Footer() {
   const phone = "201004654410";
